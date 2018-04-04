@@ -1,0 +1,73 @@
+html, body {
+	min-width: 800px;
+}
+body{
+	margin: 0;
+	font-family: "Arial";
+}
+
+header {
+	padding: 1em;
+	background-color: black;
+}
+
+h1{
+	height: 50px;
+	font-size: 2em;
+	color: white;
+	margin: 0;
+}
+
+img {
+	width: 800px;
+	img-size: 20px;
+}
+a, a:visited{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: #ABEBC6;
+	text-decoration: line-through;
+}
+nav ul{
+	list-style: none;
+}
+nav.menu{
+	background-color: black;
+	background-size: 2em
+	font-size: 2em;
+	font-family: "arial";
+	float: right;
+		
+}
+nav.menu li{
+	display: inline;
+	margin-right: 1em;
+}
+nav.timeline {
+	background-size: 2px;
+	font-size: 1em;
+	font-family: "arial";
+	color: #E8F8F5
+	display: inline;
+}
+
+nav.timeline ul{
+	padding: 0;
+	text-align: center;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	margin-right: 0;
+	margin-left: 0;
+}
+nav.timeline li {
+	display: inline;
+	padding: 1em;
+	background-color: gray;
+}
+
+p.symbol{
+	size: 10em;
+}
+
