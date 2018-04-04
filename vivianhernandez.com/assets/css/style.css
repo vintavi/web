@@ -1,9 +1,12 @@
+@import url("../fonts/meltixlight/stylesheet.css");
+
 html, body {
 	min-width: 800px;
 }
 body{
 	margin: 0;
-	font-family: "Arial";
+	font-family: "meltix_light_demoregular";
+	background: #FDFEFE;
 }
 
 header {
@@ -12,22 +15,27 @@ header {
 }
 
 h1{
+	font-family: "meltix_light_demoregular";
 	height: 50px;
 	font-size: 2em;
 	color: white;
 	margin: 0;
 }
 
-img {
-	width: 800px;
-	img-size: 20px;
+div.image-gallery{
 }
+
+.main-carousel .carousel-cell img{
+	max-width: 500px;
+}
+
 a, a:visited{
 	text-decoration: none;
 	color: white;
 }
+
 a:hover{
-	color: #ABEBC6;
+	color: #E5E8EB;
 	text-decoration: line-through;
 }
 nav ul{
@@ -39,7 +47,6 @@ nav.menu{
 	font-size: 2em;
 	font-family: "arial";
 	float: right;
-		
 }
 nav.menu li{
 	display: inline;
@@ -49,15 +56,15 @@ nav.timeline {
 	background-size: 2px;
 	font-size: 1em;
 	font-family: "arial";
-	color: #E8F8F5
+	color: #E5E8EB
 	display: inline;
 }
 
 nav.timeline ul{
 	padding: 0;
 	text-align: center;
-	margin-top: 5em;
-	margin-bottom: 5em;
+	margin-top: 10em;
+	margin-bottom: 10em;
 	margin-right: 0;
 	margin-left: 0;
 }
@@ -66,8 +73,18 @@ nav.timeline li {
 	padding: 1em;
 	background-color: gray;
 }
+nav.underline li {
+	color:black;
+	background-color: black;
+	background-size: 2em;
+	margin-right: 0;
+	padding:0;
+}
 
-p.symbol{
+p{
+	color:black;
 	size: 10em;
 }
+
+
 
