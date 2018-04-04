@@ -36,19 +36,19 @@
 	</nav>
 
 	<div class="image-gallery">
-		<div class="main-carousel"">
+		<div class="main-carousel">
 			<div class="carousel-cell"><img src="assets/images/caminando.JPG"></div>
 			<div class="carousel-cell"><img src="assets/images/café.JPG"></div>
 		</div>
 
 		<script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
 		<script type="text/javascript">
-		var elem = document.querySelector('.main-carousel');
-		var flkty = new Flickity( elem, {
-		  // options
-		  infinite: true,
-		  pageDots: false,
-		});
+			var elem = document.querySelector('.main-carousel');
+			var flkty = new Flickity( elem, {
+			  // options
+			  //wrapAround: true,
+			  pageDots: true,
+			});
 		</script>
 	</div>
 

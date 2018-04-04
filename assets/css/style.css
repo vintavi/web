@@ -15,14 +15,25 @@ header {
 }
 
 h1{
-	font-family: "meltix_light_demoregular";
 	height: 50px;
 	font-size: 2em;
 	color: white;
 	margin: 0;
+	font-family: "meltix_light_demoregular";
+}
+nav.logo{
+	
+	height: 50px;
+	font-size: 2em;
+	color: white;
+	margin: 0;
+	font-family: "meltix_light_demoregular";
 }
 
 div.image-gallery{
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 3em;
 }
 
 .main-carousel .carousel-cell img{
@@ -41,11 +52,13 @@ a:hover{
 nav ul{
 	list-style: none;
 }
+
 nav.menu{
+	
 	background-color: black;
 	background-size: 2em
 	font-size: 2em;
-	font-family: "arial";
+	font-family: "meltix_light_demoregular";
 	float: right;
 }
 nav.menu li{
@@ -53,6 +66,7 @@ nav.menu li{
 	margin-right: 1em;
 }
 nav.timeline {
+	
 	background-size: 2px;
 	font-size: 1em;
 	font-family: "arial";
