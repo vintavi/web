@@ -22,7 +22,7 @@ h1{
 	font-family: "meltix_light_demoregular";
 }
 nav.logo{
-	
+
 	height: 50px;
 	font-size: 2em;
 	color: white;
@@ -69,7 +69,7 @@ nav.timeline {
 	
 	background-size: 2px;
 	font-size: 1em;
-	font-family: "arial";
+	font-family: "meltix_light_demoregular";
 	color: #E5E8EB
 	display: inline;
 }
@@ -77,8 +77,8 @@ nav.timeline {
 nav.timeline ul{
 	padding: 0;
 	text-align: center;
-	margin-top: 10em;
-	margin-bottom: 10em;
+	margin-top: 4em;
+	margin-bottom: 4em;
 	margin-right: 0;
 	margin-left: 0;
 }
@@ -91,6 +91,7 @@ nav.underline li {
 	color:black;
 	background-color: black;
 	background-size: 2em;
+	
 	margin-right: 0;
 	padding:0;
 }
